@@ -1,0 +1,59 @@
+body{
+    width:100%;
+    margin:0;
+    padding:0;
+    background-color:rgb(239,288,290);
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    width:100%;
+    background-color: #3b5998;
+    background-color: linear-gradient(#4e69a2,#3b5998 50%);
+    border-bottom: 1px solid #133783;
+    display:flex;
+    justify-content:space-around;
+    padding:0.6em 0em;
+   
+}
+header a{
+    color:white;
+    text-decoration:none;
+}
+
+#brand{
+    font-size:230%;
+    align-self:center;
+    font-weight: bold;
+}
+
+header form{
+    color:black;
+    margin-left:35%;
+}
+
+header form ul{
+    display:flex;
+    flex-direction:row;
+    list-style-type:none;
+}
+
+header form li{
+    align-self:flex-start;
+    padding: 0.2em 0.5em;
+    font-size:100%;
+}
+header form input{
+    margin-bottom: 0.8em;
+    height: 18px;
+}
+
+header form input[type="submit"] {
+    background-color: blue;
+    border:1px solid #08298A;
+    color:white;
+    height:24px;
+    font-weight:bold;
+    margin-top:20%;
+    cursor:pointer;
+
+}
